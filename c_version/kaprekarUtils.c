@@ -23,8 +23,11 @@
  * @return <code>true</code> if <code>n</code> is a Kaprekar Number, 
  * <code>false</code> otherwise.
  */
-int isKaprekar(int n) {
 
+ int isKaprekar(int n) {
+
+ char false;
+ 
   if(n < 1) {
     return false;
   }
