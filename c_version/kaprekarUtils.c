@@ -34,7 +34,7 @@
 
   int i;
   long square = n * (long) n;
-  int numDigits = (int) log10(n) + 1;
+  int numberOfDigits = (int) log10(n) + 1;
   long modulus = 0;
   long first, second;
 
